@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+     background-color: black;
+   
+}
+
+
+
+.screen {
+    position: relative;
+    width: 100%;
+
+    margin: 0 auto;
+    
+    /*Note to self: las mac son 16/10 no 16/9 */
+
+    aspect-ratio: 16 / 10;  
+    overflow: hidden;
+    background-color: black;
+   
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+
+}
+
+/* TOCADISCOS */
+
+.turntable {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    left: 47%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* DAY */
+
+#day-counter {
+    position: absolute;
+
+    top: 5%;
+    left: 70%;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.1vw;
+    font-weight: bold;
+
+    color: white;
+
+    z-index: 10;
+}
+
+/* COUNTDOWN */
+
+#countdown {
+    position: absolute;
+
+    top: 10%;
+    left: 70%;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4vw;
+
+    color: white;
+
+    z-index: 10;
+}
+
+/* SONG TITLE */
+
+#song-title {
+    position: absolute;
+
+    bottom: 700px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+
+    color: white;
+
+    z-index: 10;
+}
+
+/* SONG ARTIST */
+
+#song-artist {
+    position: fixed;
+
+    bottom: 580px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    font-family: Arial, sans-serif;
+    font-size: 75px;
+
+    color: white;
+
+    z-index: 10;    
+
+}
+
+/* MODO TOCADISCOS */
+
+.record-player-mode {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    z-index: 20;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        opacity 0.8s ease,
+        visibility 0.8s ease;
+
+    pointer-events: none;
+}
+
+
+/* FONDO FADE */
+
+.fade-background {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    left: 0;
+    top: 0;
+
+    object-fit: cover;
+}
+
+
+/* TOCADISCOS FLOTANTE */
+
+.floating-turntable {
+    position: absolute;
+
+    width: 2100px;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -50%)
+        translateY(30px);
+
+    opacity: 0;
+
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+
+/* VINILO */
+
+.vinyl {
+    position: absolute;
+
+    width: 34%;
+
+    left: 50%;
+    top: 47%;
+
+    transform:
+        translate(-50%, -50%)
+        scale(0.7);
+
+    opacity: 0;
+
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+}
+
+.record-player-mode.vinyl-visible .vinyl {
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1);
+}
+
+
+/* =====================================
+   MODO ACTIVO
+===================================== */
+
+.record-player-mode.active {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    pointer-events: auto;
+}
+
+
+/* =====================================
+   TOCADISCOS APARECE
+===================================== */
+
+.record-player-mode.active .floating-turntable {
+
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        translateY(0);
+}
+
+
+/* =====================================
+   TOCADISCOS SE VA
+===================================== */
+
+.record-player-mode.player-disappearing .floating-turntable {
+
+    opacity: 0;
+
+    transform:
+        translate(-50%, -50%)
+        translateY(-20px);
+
+}
+
+
+/* =====================================
+   VINILO APARECE
+===================================== */
+
+.record-player-mode.vinyl-visible .vinyl {
+
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1);
+}
+
+
+/* =====================================
+   VINILO GIRANDO
+===================================== */
+
+.vinyl.playing {
+
+    animation:
+        spinVinyl 4s linear infinite;
+
+}
+
+
+@keyframes spinVinyl {
+
+    from {
+
+        transform:
+            translate(-50%, -50%)
+            scale(1)
+            rotate(0deg);
+
+    }
+
+    to {
+
+        transform:
+            translate(-50%, -50%)
+            scale(1)
+            rotate(360deg);
+
+    }
+
+}
+
+
+/*
+   INFORMACIÓN APARECE */
+
+.record-player-mode.show-song .song-info {
+
+    opacity: 1;
+
+}
+
+/* =====================================
+   INFORMACIÓN DE LA CANCIÓN
+===================================== */
+.record-player-mode .song-info {
+    position: absolute;
+    left: 50%;
+    bottom: 16%;
+    transform: translateX(-50%);
+    width: 85%;
+    text-align: center;
+    z-index: 30;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+#player-song-title {
+    font-family: Arial, sans-serif;
+    font-size: 2.75vw;
+    font-weight: bold;
+    color: white;
+    line-height: 1.05;
+}
+
+#player-song-artist {
+    margin-top: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 2vw;
+    color: white;
+    line-height: 1.1;
+}
+
+
+
+/* MENSAJES */
+
+.charlie {
+    position: absolute;
+    width: 8.0%; /* Equivalente responsivo a tus 400px anteriores */
+    height: auto;
+    left: 20%;
+    bottom: 20%;
+    image-rendering: pixelated;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.perro {
+    position: absolute;
+    width: 17.0%;
+    height: auto;
+    left: 27%;
+    bottom: -4%;
+    image-rendering: pixelated;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.roca {
+    position: absolute;
+    width: 6%;
+    height: auto;
+    left: 51%;
+    bottom: 30%;
+    image-rendering: pixelated;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.fideos {
+    position: absolute;
+    object-fit: cover;
+    width: 7%;
+    height: auto;
+    left: 72%;
+    bottom: 17%;
+    image-rendering: pixelated;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.camara {
+    position: absolute;
+    width: 6%;
+    height: auto;
+    left: 66%;
+    bottom: 46%;
+    image-rendering: pixelated;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+
+
+
+.message-overlay {
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    z-index: 100;
+
+    opacity: 0;
+    visibility: hidden;
+
+    pointer-events: none;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    backdrop-filter: blur(0px);
+
+    -webkit-backdrop-filter: blur(0px);
+
+    transition:
+        opacity 0.5s ease,
+        background-color 0.5s ease,
+        backdrop-filter 0.5s ease;
+
+}
+
+
+
+.message-overlay.active {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    pointer-events: auto;
+
+    background-color:
+        rgba(0, 0, 0, 0.15);
+
+    backdrop-filter: blur(7px);
+
+    -webkit-backdrop-filter: blur(7px);
+
+}
+
+
+/* =====================================
+   POST IT
+===================================== */
+
+.post-it-container {
+
+    position: absolute;
+
+    width: 25%;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -50%)
+        scale(0.7)
+        rotate(-3deg);
+
+    opacity: 0;
+
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+
+}
+
+
+/* POST IT VISIBLE */
+
+.message-overlay.post-it-active
+.post-it-container {
+
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1)
+        rotate(-3deg);
+
+}
+
+
+.post-it {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    image-rendering: pixelated;
+
+}
+
+
+/* TEXTO POST IT */
+
+.post-it-text {
+
+    position: absolute;
+
+    width: 50%;
+
+    left: 27%;
+    top: 40%;
+
+    font-family:
+        'Times New Roman',
+        Times,
+        serif;
+
+    font-size: 1.4vw;
+
+    line-height: 1.2;
+
+    text-align: center;
+
+    color: black;
+
+    text-align: left;
+
+}
+
+
+/* =====================================
+   SOBRE
+===================================== */
+
+.envelope-container {
+
+    position: absolute;
+
+    width: 30%;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -50%)
+        scale(0.7);
+
+    opacity: 0;
+
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+
+}
+
+
+/* SOBRE VISIBLE */
+
+.message-overlay.envelope-active
+.envelope-container {
+
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1);
+
+}
+
+
+.envelope {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    image-rendering: pixelated;
+
+}
+
+
+/* =====================================
+   CARTA SALIENDO DEL SOBRE
+===================================== */
+
+.letter-coming-container {
+
+    position: absolute;
+
+    width: 32%;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -35%)
+        scale(0.8);
+
+    opacity: 0;
+
+    transition:
+        opacity 0.5s ease,
+        transform 0.7s ease;
+
+}
+
+
+/* CARTA SALIENDO */
+
+.message-overlay.letter-coming-active
+.letter-coming-container {
+
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1);
+
+}
+
+
+.letter-coming {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    image-rendering: pixelated;
+
+}
+
+
+/* =====================================
+   CARTA SOLA
+===================================== */
+
+.letter-container {
+
+    position: absolute;
+
+    width: 40%;
+
+    left: 50%;
+    top: 50%;
+
+    transform:
+        translate(-50%, -50%)
+        scale(0.7);
+
+    opacity: 0;
+
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+
+}
+
+
+/* CARTA VISIBLE */
+
+.message-overlay.letter-active
+.letter-container {
+
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1);
+
+}
+
+
+.letter {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    image-rendering: pixelated;
+
+}
+
+
+/* =====================================
+   TEXTO DE CARTA
+===================================== */
+
+.letter-text {
+
+    position: absolute;
+
+    width: 70%;
+
+    left: 15%;
+    top: 27%;
+
+    /* Área máxima donde puede crecer el texto */
+    height: 55%;
+
+    font-family:
+        'Times New Roman',
+        Times,
+        serif;
+
+    font-size: 1.3vw;
+
+    line-height: 1.3;
+
+    text-align: left;
+
+    color: black;
+
+    /* IMPORTANTE:
+       el texto ya no se sele de la carta */
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+    /* El scroll queda solamente dentro del texto */
+    padding-right: 2%;
+
+    /* Hace que e empiece arriba */
+    scroll-behavior: smooth;
+
+    white-space: pre-line;
+}
