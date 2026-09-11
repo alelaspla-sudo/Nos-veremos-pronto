@@ -711,7 +711,7 @@ function closeRecordPlayer() {
 
 }
 
-
+//ACTUALIZACION
 // =========================
 // INICIAR
 // =========================
