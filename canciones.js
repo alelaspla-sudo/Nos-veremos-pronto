@@ -4,7 +4,7 @@ const songs = [
  {
         title: "See You Again",
         artist: "Tyler, The Creator",
-        archivo: "Canciones/See You Again (feat. Kali Uchis)_spotdown.org.mp3"
+        archivo: "See You Again (feat. Kali Uchis)_spotdown.org.mp3"
     },
 
 // Día 2 (15 de septiembre)
@@ -12,7 +12,7 @@ const songs = [
  {
         title: "Cuando nos volvamos a encontrar",
         artist: "Carlos Vives",
-        archivo: "Canciones/Cuando Nos Volvamos a Encontrar (feat. Marc Anthony)_spotdown.org.mp3"
+        archivo: "Cuando Nos Volvamos a Encontrar (feat. Marc Anthony)_spotdown.org.mp3"
     },
 
 
@@ -21,7 +21,7 @@ const songs = [
 {
         title: "Walking in the Wind",
         artist: "One Direction",
-        archivo: "Canciones/Walking in the Wind_spotdown.org.mp3"
+        archivo: " Walking in the Wind_spotdown.org.mp3"
     
     },
 
@@ -30,7 +30,7 @@ const songs = [
 {
     title: "Cristina",
     artist: "Sebastian Yatra",
-    archivo: "Canciones/Cristina_spotdown.org.mp3"
+    archivo: "Cristina_spotdown.org.mp3"
 },
 
 // Día 5 (18 de septiembre)
@@ -38,7 +38,7 @@ const songs = [
 {
     title: "Bless the Telephone",
     artist: "Labi Siffre",
-    archivo: "Canciones/Bless the Telephone_spotdown.org.mp3"
+    archivo: "Bless the Telephone_spotdown.org.mp3"
 },
 
 // Día 6 (19 de septiembre)
@@ -46,7 +46,7 @@ const songs = [
 {
     title: "Summertime Sadness",
     artist: "Lana del Rey",
-    archivo: "Canciones/Summertime Sadness_spotdown.org.mp3"
+    archivo: "Summertime Sadness_spotdown.org.mp3"
 },
 
 // Día 7 (20 de septiembre)
@@ -55,7 +55,7 @@ const songs = [
 {
     title: "Piano Man",
     artist: "Billy Joel ",
-    archivo: "Canciones/Piano Man_spotdown.org.mp3"
+    archivo: "Piano Man_spotdown.org.mp3"
 },
 
 // Día 8 (21 de septiembre) *FLORES AMARILLAS yeiiii
@@ -63,7 +63,7 @@ const songs = [
 {
         title: "Te estoy correteando",
         artist: "LATIN MAFIA, Fred Again...",
-        archivo: "Canciones/Te Estoy Correteando_spotdown.org.mp3"
+        archivo: "Te Estoy Correteando_spotdown.org.mp3"
     },
 
 // Día 9 (22 de septiembre) SEIS MESES
@@ -71,7 +71,7 @@ const songs = [
 {
     title: "honeybee",
     artist: "Olivia Rodrigo",
-    archivo: "Canciones/honeybee_spotdown.org.mp3"
+    archivo: "honeybee_spotdown.org.mp3"
 },
 
 // Día 10 (23 de septiembre)
@@ -79,7 +79,7 @@ const songs = [
 {
     title: "Gone, Gone, Gone",
     artist: "Phillip Phillips",
-    archivo: "Canciones/Gone, Gone, Gone_spotdown.org.mp3"
+    archivo: "Gone, Gone, Gone_spotdown.org.mp3"
 },
 
 // Día 11 (24 de septiembre)
@@ -87,7 +87,7 @@ const songs = [
 {
     title: "Goodbye Yellow Brick Road",
     artist: "Elton John",
-    archivo: "Canciones/Goodbye Yellow Brick Road - Remastered 2014_spotdown.org.mp3"
+    archivo: "Goodbye Yellow Brick Road - Remastered 2014_spotdown.org.mp3"
 },
 
 
@@ -96,7 +96,7 @@ const songs = [
 {
     title: "Zamba Surreal",
     artist: "Guardarraya",
-    archivo: "Canciones/Zamba Surreal_spotdown.org.mp3"
+    archivo: "Zamba Surreal_spotdown.org.mp3"
 },
 
 // Día 13 (26 de septiembre)
@@ -104,7 +104,7 @@ const songs = [
 {
     title: "Llora Llora",
     artist: "Milo J",
-    archivo: "Canciones/Llora Llora_spotdown.org.mp3"
+    archivo: "Llora Llora_spotdown.org.mp3"
 },
 
 // Día 14 (27 de septiembre)
@@ -112,20 +112,20 @@ const songs = [
 {
     title: "Yo siempre contesto",
     artist: "LATIN MAFIA",
-    archivo: "Canciones/Yo siempre contesto._spotdown.org.mp3"
+    archivo: "Yo siempre contesto._spotdown.org.mp3"
 },
 
 // Día 15 (28 de septiembre)
 {
     title: "7O9",
     artist: "La Máquina Camaleón",
-    archivo: "Canciones/7 O 9_spotdown.org.mp3"
+    archivo: "7 O 9_spotdown.org.mp3"
 },
 // Día 16 (29 de septiembre)
 {
     title: "Futile Devices",
     artist: "Sufjan Stevens",
-    archivo: "Canciones/Futile Devices (Doveman Remix)_spotdown.org.mp3"
+    archivo: "Futile Devices (Doveman Remix)_spotdown.org.mp3"
 },
 
 // Día 17 (30 de septiembre)
@@ -133,7 +133,7 @@ const songs = [
 {
     title: "Robarte un Beso",
     artist: "Carlos Vives, Sebastián Yatra",
-    archivo: "Canciones/Robarte Un Beso_spotdown.org.mp3"
+    archivo: "Robarte Un Beso_spotdown.org.mp3"
 },
 
 
@@ -142,7 +142,7 @@ const songs = [
 {
     title: "maggots for brains",
     artist: "Olivia Rodrigo",
-    archivo: "Canciones/maggots for brains_spotdown.org.mp3"
+    archivo: "maggots for brains_spotdown.org.mp3"
 },
 
 // Día 19 (2 de octubre)
@@ -150,7 +150,7 @@ const songs = [
 {
     title: "Acuérdate de mí",
     artist: "Morat",
-    archivo: "Canciones/Acuérdate De Mí_spotdown.org.mp3"
+    archivo: "Acuérdate De Mí_spotdown.org.mp3"
 },
 
 
@@ -159,7 +159,7 @@ const songs = [
 {
     title: "Niño",
     artist: "Milo j",
-    archivo: "Canciones/Niño_spotdown.org.mp3"
+    archivo: "Niño_spotdown.org.mp3"
 },
 
 // Día 21 (4 de octubre)
@@ -167,7 +167,7 @@ const songs = [
 {
     title: "Arrullo de Estrellas",
     artist: "Zoé",
-    archivo: "Canciones/Arrullo De Estrellas_spotdown.org.mp3"
+    archivo: "Arrullo De Estrellas_spotdown.org.mp3"
 },
 
 // Día 22 (5 de octubre)
@@ -175,7 +175,7 @@ const songs = [
 {
     title: "Can I Call you Tonight?",
     artist: "Dayglow",
-    archivo: "Canciones/Can I Call You Tonight__spotdown.org.mp3"
+    archivo: "Can I Call You Tonight__spotdown.org.mp3"
 },
 
 // Día 23 (6 de octubre)
@@ -183,7 +183,7 @@ const songs = [
 {
     title: "Amapolas",
     artist: "Leo Rizzi",
-    archivo: "Canciones/Amapolas_spotdown.org.mp3"
+    archivo: "Amapolas_spotdown.org.mp3"
 },
 
 // Día 24 (7 de octubre)
@@ -191,7 +191,7 @@ const songs = [
 {
     title: "Frances Limon",
     artist: "Los Enanitos Verdes",
-    archivo: "Canciones/Frances Limon_spotdown.org.mp3"
+    archivo: "Frances Limon_spotdown.org.mp3"
 },
 
 
@@ -200,7 +200,7 @@ const songs = [
 {
     title: "Wonder",
     artist: "Shawn Mendes",
-    archivo: "Canciones/Wonder_spotdown.org.mp3"
+    archivo: "Wonder_spotdown.org.mp3"
 },
 
 
@@ -209,7 +209,7 @@ const songs = [
 {
     title: "My One And Only Love",
     artist: "Mon Laferte, Natalia Lafourcade, Silvana Estrada",
-    archivo: "Canciones/My One And Only Love (feat. Natália Lafourcade & Silvana Estrada)_spotdown.org.mp3"
+    archivo: "My One And Only Love (feat. Natália Lafourcade & Silvana Estrada)_spotdown.org.mp3"
 },
 
 
@@ -218,7 +218,7 @@ const songs = [
 {
     title: "El Cantante",
     artist: "Héctor Lavoe",
-    archivo: "Canciones/El Cantante_spotdown.org.mp3"
+    archivo: "El Cantante_spotdown.org.mp3"
 },
 
 
@@ -227,7 +227,7 @@ const songs = [
 {
     title: "Siento que merezco más",
     artist: "LATIN MAFIA",
-    archivo: "Canciones/Siento que merezco más_spotdown.org.mp3"
+    archivo: "Siento que merezco más_spotdown.org.mp3"
 },
 
 
@@ -236,7 +236,7 @@ const songs = [
 {
     title: "La Llave de mi Corazón",
     artist: "Juan Luis Guerra 4.40",
-    archivo: "Canciones/La Llave De Mi Corazon_spotdown.org.mp3"
+    archivo: "La Llave De Mi Corazon_spotdown.org.mp3"
 },
 
 
@@ -245,7 +245,7 @@ const songs = [
 {
     title: "Bound 2",
     artist: "Kanye West",
-    archivo: "Canciones/Bound 2_spotdown.org.mp3"
+    archivo: "Bound 2_spotdown.org.mp3"
 },
 
 
@@ -254,7 +254,7 @@ const songs = [
 {
     title: "Tuyo",
     artist: "Mora",
-    archivo: "Canciones/Tuyo_spotdown.org.mp3"
+    archivo: "Tuyo_spotdown.org.mp3"
 },
 
 // Día 32 (15 de octubre)
@@ -262,7 +262,7 @@ const songs = [
 {
     title: "Sol",
     artist: "Les Petits Batards",
-    archivo: "Canciones/Sol_spotdown.org.mp3"
+    archivo: "Sol_spotdown.org.mp3"
 },
 
 
@@ -271,7 +271,7 @@ const songs = [
 {
     title: "Sin Poderte Hablar",
     artist: "Willie Colón",
-    archivo: "Canciones/Sin Poderte Hablar_spotdown.org.mp3"
+    archivo: "Sin Poderte Hablar_spotdown.org.mp3"
 },
 
 
@@ -280,7 +280,7 @@ const songs = [
 {
     title: "Next to Me",
     artist: "Imagine Dragons",
-    archivo: "Canciones/Next To Me_spotdown.org.mp3"
+    archivo: "Next To Me_spotdown.org.mp3"
 },
 
 
@@ -289,7 +289,7 @@ const songs = [
 {
     title: "Azul",
     artist: "Zoé",
-    archivo: "Canciones/Azul_spotdown.org.mp3"
+    archivo: "Azul_spotdown.org.mp3"
 },
 
 
@@ -298,7 +298,7 @@ const songs = [
 {
     title: "Pink + White",
     artist: "Frank Ocean",
-    archivo: "Canciones/Pink + White_spotdown.org.mp3"
+    archivo: "Pink + White_spotdown.org.mp3"
 },
 
 
@@ -307,7 +307,7 @@ const songs = [
 {
     title: "Karmadame",
     artist: "Zoé",
-    archivo: "Canciones/Karmadame_spotdown.org.mp3"
+    archivo: "Karmadame_spotdown.org.mp3"
 },
 
 
@@ -316,7 +316,7 @@ const songs = [
 {
     title: "Stand by Me",
     artist: "Ben E. King",
-    archivo: "Canciones/Stand By Me_spotdown.org.mp3"
+    archivo: "Stand By Me_spotdown.org.mp3"
 },
 
 // Día 39 (22 de octubre) SIETE MESES
@@ -324,7 +324,7 @@ const songs = [
 {
     title: "Mystery of love",
     artist: "Sufjan Stevens",
-    archivo: "Canciones/Mystery of Love_spotdown.org.mp3"
+    archivo: "Mystery of Love_spotdown.org.mp3"
 },
 
 // Día 40 (23 de octubre)
@@ -332,7 +332,7 @@ const songs = [
 {
     title: "Entre Caníbales",
     artist: "Soda Stereo",
-    archivo: "Canciones/Entre Caníbales - Remasterizado 2007_spotdown.org.mp3"
+    archivo: "Entre Caníbales - Remasterizado 2007_spotdown.org.mp3"
 },
 
 // Día 41 (24 de octubre)
@@ -340,7 +340,7 @@ const songs = [
 {
     title: "Chachachá",
     artist: "Josean Log",
-    archivo: "Canciones/Chachachá_spotdown.org.mp3"
+    archivo: "Chachachá_spotdown.org.mp3"
 },
 
 // Día 42 (25 de octubre)
@@ -348,7 +348,7 @@ const songs = [
 {
     title: "Miss You",
     artist: "Louis Tomlinson",
-    archivo: "Canciones/LT Miss You_spotdown.org.mp3"
+    archivo: "LT Miss You_spotdown.org.mp3"
 },
 
 // Día 43 (26 de octubre)
@@ -356,7 +356,7 @@ const songs = [
 {
     title: "Hombre-lobo en París",
     artist: "La Unión",
-    archivo: "Canciones/Lobo-hombre en París_spotdown.org.mp3"
+    archivo: "Lobo-hombre en París_spotdown.org.mp3"
 },
 
 // Día 44 (27 de octubre)
@@ -364,7 +364,7 @@ const songs = [
 {
     title: "La Llorona Loca",
     artist: "Los Gliders",
-    archivo: "Canciones/La Llorona Loca_spotdown.org.mp3"
+    archivo: "La Llorona Loca_spotdown.org.mp3"
 },
 
 
@@ -373,7 +373,7 @@ const songs = [
 {
     title: "(You're the) Devil in Disguise",
     artist: "Elvis Presley",
-    archivo: "Canciones/(You're The) Devil in Disguise_spotdown.org.mp3"
+    archivo: "(You're The) Devil in Disguise_spotdown.org.mp3"
 },
 
 // Día 46 (29 de octubre)
@@ -381,7 +381,7 @@ const songs = [
 {
     title: "Mr Sandman",
     artist: "Pat Ballard, Chordetts",
-    archivo: "Canciones/Mr. Sandman_spotdown.org.mp3"
+    archivo: "Mr. Sandman_spotdown.org.mp3"
 },
 
 
@@ -390,7 +390,7 @@ const songs = [
 {
     title: "Monster Mash",
     artist: "Bobby Picket",
-    archivo: "Canciones/Monster Mash_spotdown.org.mp3"
+    archivo: "Monster Mash_spotdown.org.mp3"
 },
 
 
@@ -399,7 +399,7 @@ const songs = [
 {
     title: "Thriller",
     artist: "Michael Jackson",
-    archivo: "Canciones/Thriller_spotdown.org.mp3"
+    archivo: "Thriller_spotdown.org.mp3"
 },
 
 
@@ -408,7 +408,7 @@ const songs = [
 {
     title: "Two Ghosts",
     artist: "Harry Styles",
-    archivo: "Canciones/Two Ghosts_spotdown.org.mp3"
+    archivo: "Two Ghosts_spotdown.org.mp3"
 },
 
 // Día 50 (2 de noviembre)
@@ -416,7 +416,7 @@ const songs = [
 {
     title: "Hey Jude",
     artist: "The Beatles",
-    archivo: "Canciones/Hey Jude_spotdown.org.mp3"
+    archivo: "Hey Jude_spotdown.org.mp3"
 },
 
 // Día 51 (3 de noviembre)
@@ -424,7 +424,7 @@ const songs = [
 {
     title: "Love is Complicated",
     artist: "Labrinth",
-    archivo: "Canciones/Labrinth - Love Is Complicated (The Angels Sing)_spotdown.org.mp3"
+    archivo: "Labrinth - Love Is Complicated (The Angels Sing)_spotdown.org.mp3"
 },
 
 
@@ -433,7 +433,7 @@ const songs = [
 {
     title: "Paisajes en mi Mente",
     artist: "Las Luces Primeras",
-    archivo: "Canciones/Paisajes en Mi Mente_spotdown.org.mp3"
+    archivo: "Paisajes en Mi Mente_spotdown.org.mp3"
 },
 
 // Día 53 (5 de noviembre)
@@ -441,7 +441,7 @@ const songs = [
 {
     title: "Don't Worry I'll Make you Worry",
     artist: "Sabrina Carpenter",
-    archivo: "Canciones/Don't Worry I'll Make You Worry_spotdown.org.mp3"
+    archivo: "Don't Worry I'll Make You Worry_spotdown.org.mp3"
 },
 
 // Día 54 (6 de noviembre)
@@ -449,7 +449,7 @@ const songs = [
 {
     title: "Vertigo",
     artist: "Khalid",
-    archivo: "Canciones/Vertigo_spotdown.org.mp3"
+    archivo: "Vertigo_spotdown.org.mp3"
 },
 
 // Día 55 (7 de noviembre)
@@ -457,7 +457,7 @@ const songs = [
 {
     title: "Riptide",
     artist: "Vance Joy",
-    archivo: "Canciones/Riptide_spotdown.org.mp3"
+    archivo: "Riptide_spotdown.org.mp3"
 },
 
 // Día 56 (8 de noviembre)
@@ -465,7 +465,7 @@ const songs = [
 {
  title: "Enseñame a bailar",
     artist: "Bad Bunny",
-    archivo: "Canciones/Enséñame a Bailar_spotdown.org.mp3"
+    archivo: "Enséñame a Bailar_spotdown.org.mp3"
 
 },
 
@@ -474,7 +474,7 @@ const songs = [
 {
     title: "telepatía",
     artist: "Kali Uchis",
-    archivo: "Canciones/telepatía_spotdown.org.mp3"
+    archivo: "telepatía_spotdown.org.mp3"
 
 },
 
@@ -484,7 +484,7 @@ const songs = [
 {
     title: "Von dutch",
     artist: "Charli XCX",
-    archivo: "Canciones/Von dutch_spotdown.org.mp3"
+    archivo: "Von dutch_spotdown.org.mp3"
 },
 
 // Día 59 (11 de noviembre)
@@ -492,7 +492,7 @@ const songs = [
 {
     title: "Adore You",
     artist: "Harry Styles",
-    archivo: "Canciones/Adore You_spotdown.org.mp3"
+    archivo: "Adore You_spotdown.org.mp3"
 },
 
 // Día 60 (12 de noviembre)
@@ -500,7 +500,7 @@ const songs = [
 {
     title: "Santa Fe",
     artist: "Morat",
-    archivo: "Canciones/Santa Fe_spotdown.org.mp3"
+    archivo: "Santa Fe_spotdown.org.mp3"
 },
 
 // Día 61 (13 de noviembre)
@@ -508,7 +508,7 @@ const songs = [
 {
     title: "malibU",
     artist: "rusowsky",
-    archivo: "Canciones/malibU_spotdown.org.mp3"
+    archivo: "malibU_spotdown.org.mp3"
 },
 
 // Día 62 (14 de noviembre)
@@ -516,7 +516,7 @@ const songs = [
 {
     title: "drivers license",
     artist: "Olivia Rodrigo",
-    archivo: "Canciones/drivers license_spotdown.org.mp3"
+    archivo: "drivers license_spotdown.org.mp3"
 },
 
 // Día 63 (15 de noviembre)
@@ -524,7 +524,7 @@ const songs = [
 {
     title: "Luciérnagas",
     artist: "Milo J",
-    archivo: "Canciones/Luciérnagas_spotdown.org.mp3"
+    archivo: "Luciérnagas_spotdown.org.mp3"
 },
 
 // Día 64 (16 de noviembre)
@@ -532,7 +532,7 @@ const songs = [
 {
     title: "Satellite",
     artist: "Harry Styles",
-    archivo: "Canciones/Satellite_spotdown.org.mp3"
+    archivo: "Satellite_spotdown.org.mp3"
 },
 
 // Día 65 (17 de noviembre)
@@ -540,7 +540,7 @@ const songs = [
 {
     title: "Hymn for the weekend",
     artist: "Coldplay",
-    archivo: "Canciones/Hymn for the Weekend_spotdown.org.mp3"
+    archivo: "Hymn for the Weekend_spotdown.org.mp3"
 },
 
 // Día 66 (18 de noviembre)
@@ -548,7 +548,7 @@ const songs = [
 {
     title: "Vienna",
     artist: "Billy Joel",
-    archivo: "Canciones/Vienna_spotdown.org.mp3"
+    archivo: "Vienna_spotdown.org.mp3"
 },
 
 // Día 67 (19 de noviembre)
@@ -556,7 +556,7 @@ const songs = [
 {
     title: "Iris",
     artist: "The Goo Goo Dolls",
-    archivo: "Canciones/Iris_spotdown.org.mp3"
+    archivo: "Iris_spotdown.org.mp3"
 },
 
 // Día 68 (20 de noviembre)
@@ -564,7 +564,7 @@ const songs = [
 {
     title: "Beso",
     artist: "Josean Log",
-    archivo: "Canciones/Beso_spotdown.org.mp3"
+    archivo: "Beso_spotdown.org.mp3"
 },
 
 // Día 69 (21 de noviembre)
@@ -572,7 +572,7 @@ const songs = [
 {
     title: "Silver Soul",
     artist: "Beach House",
-    archivo: "Canciones/Silver Soul_spotdown.org.mp3"
+    archivo: "Silver Soul_spotdown.org.mp3"
 },
 
 // Día 70 (22 de noviembre) OCHO MESES
@@ -580,7 +580,7 @@ const songs = [
 {
     title: "Hablando a tu corazón",
     artist: "Charly García",
-    archivo: "Canciones/Hablando a Tu Corazón_spotdown.org.mp3"
+    archivo: "Hablando a Tu Corazón_spotdown.org.mp3"
 },
 
 
@@ -589,7 +589,7 @@ const songs = [
 {
     title: "Downtown",
     artist: "Majical Cloudz",
-    archivo: "Canciones/Downtown_spotdown.org.mp3"
+    archivo: "Downtown_spotdown.org.mp3"
 },
 
 // Día 72 (24 de noviembre)
@@ -597,7 +597,7 @@ const songs = [
 {
     title: "En Un Solo Día",
     artist: "Morat",
-    archivo: "Canciones/En Un Sólo Dia_spotdown.org.mp3"
+    archivo: "En Un Sólo Dia_spotdown.org.mp3"
 },
 
 
@@ -607,7 +607,7 @@ const songs = [
 {
     title: "Flaco",
     artist: "Mon Laferte",
-    archivo: "Canciones/Flaco_spotdown.org.mp3"
+    archivo: "Flaco_spotdown.org.mp3"
 },
 
 
@@ -616,7 +616,7 @@ const songs = [
 {
     title: "FERXXO 151",
     artist: "Feid",
-    archivo: "Canciones/FERXXO 151_spotdown.org.mp3"
+    archivo: "FERXXO 151_spotdown.org.mp3"
 },
 
 
@@ -625,7 +625,7 @@ const songs = [
 {
     title: "Coming up roses",
     artist: "Harry Styles",
-    archivo: "Canciones/Coming Up Roses_spotdown.org.mp3"
+    archivo: "Coming Up Roses_spotdown.org.mp3"
 },
 
 
@@ -635,7 +635,7 @@ const songs = [
 {
     title: "Vámonos de viaje",
     artist: "Bándalos Chinos",
-    archivo: "Canciones/Vámonos De Viaje_spotdown.org.mp3"
+    archivo: "Vámonos De Viaje_spotdown.org.mp3"
 },
 
 // Día 77 (29 de noviembre) Día de las hijueputas elecciones
@@ -643,7 +643,7 @@ const songs = [
 {
     title: "El Ecuador",
     artist: "Lolabúm",
-    archivo: "Canciones/El Ecuador_spotdown.org.mp3"
+    archivo: "El Ecuador_spotdown.org.mp3"
 },
 
 
@@ -653,7 +653,7 @@ const songs = [
 {
     title: "This Town",
     artist: "Niall Horan",
-    archivo: "Canciones/This Town_spotdown.org.mp3"
+    archivo: "This Town_spotdown.org.mp3"
 },
 
 
@@ -662,7 +662,7 @@ const songs = [
 {
     title: "Amapola",
     artist: "Papaya Dada",
-    archivo: "Canciones/Amapola_spotdown.org.mp3"
+    archivo: "Amapola_spotdown.org.mp3"
 },
 
 // Día 80 (2 de diciembre)
@@ -670,7 +670,7 @@ const songs = [
 {
     title: "Ayayay",
     artist: "Papaya Dada",
-    archivo: "Canciones/AYAYAY!_spotdown.org.mp3"
+    archivo: "AYAYAY!_spotdown.org.mp3"
 },
 
 // Día 81 (3 de diciembre)
@@ -678,7 +678,7 @@ const songs = [
 {
     title: "DONDE ESTAS AMOR",
     artist: "Don Medardo y sus Players",
-    archivo: "Canciones/DONDE ESTAS AMOR_spotdown.org.mp3"
+    archivo: "DONDE ESTAS AMOR_spotdown.org.mp3"
 },
 
 
@@ -687,7 +687,7 @@ const songs = [
 {
     title: "Solo Tú",
     artist: "Don Medardo y sus Players",
-    archivo: "Canciones/Solo Tú_spotdown.org.mp3"
+    archivo: "Solo Tú_spotdown.org.mp3"
 },
 
 // Día 83 (5 de diciembre)
@@ -695,7 +695,7 @@ const songs = [
 {
     title: "El Chulla Quiteño",
     artist: "Grupo Tradición",
-    archivo: "Canciones/El Chulla Quiteno_spotdown.org.mp3"
+    archivo: "El Chulla Quiteno_spotdown.org.mp3"
 },
 
 // Día 84 (6 de diciembre)
@@ -703,7 +703,7 @@ const songs = [
 {
     title: "¡Viva Quito carajo!",
     artist: "¡Hoy Quito cumple 492 años! Tomaraste un canelazo en mi honor",
-    archivo: "Canciones/Edén de Maravillas_spotdown.org.mp3"
+    archivo: "Edén de Maravillas_spotdown.org.mp3"
 },
 
 // Día 85 (7 de diciembre)
@@ -711,7 +711,7 @@ const songs = [
 {
     title: "Chuchaqui",
     artist: "Guardarraya",
-    archivo: "Canciones/Chuchaqui_spotdown.org.mp3"
+    archivo: "Chuchaqui_spotdown.org.mp3"
 },
 
 // Día 86 (8 de diciembre)
@@ -719,7 +719,7 @@ const songs = [
 {
     title: "CAFé CON RON",
     artist: "Bad Bunny",
-    archivo: "Canciones/CAFé CON RON_spotdown.org.mp3"
+    archivo: "CAFé CON RON_spotdown.org.mp3"
 },
 
 // Día 87 (9 de diciembre)
@@ -727,7 +727,7 @@ const songs = [
 {
     title: "Art Deco",
     artist: "Lana del Rey",
-    archivo: "Canciones/Art Deco_spotdown.org.mp3"
+    archivo: "Art Deco_spotdown.org.mp3"
 },
 
 // Día 88 (10 de diciembre)
@@ -735,7 +735,7 @@ const songs = [
 {
     title: "Chiquitita",
     artist: "ABBA",
-    archivo: "Canciones/Chiquitita_spotdown.org.mp3"
+    archivo: "Chiquitita_spotdown.org.mp3"
 },
 
 // Día 89 (11 de diciembre)
@@ -743,7 +743,7 @@ const songs = [
 {
     title: "Little Freak",
     artist: "Harry Styles",
-    archivo: "Canciones/Little Freak_spotdown.org.mp3"
+    archivo: "Little Freak_spotdown.org.mp3"
 },
 
 
@@ -752,7 +752,7 @@ const songs = [
 {
     title: "Rocketman",
     artist: "Elton John",
-    archivo: "Canciones/Rocket Man (I Think It's Going To Be A Long, Long Time)_spotdown.org.mp3"
+    archivo: "Rocket Man (I Think It's Going To Be A Long, Long Time)_spotdown.org.mp3"
 },
 
 // Día 91 (13 de diciembre)
@@ -769,7 +769,7 @@ const songs = [
 {
     title: "Lover",
     artist: "Taylor Swift",
-    archivo: "Canciones/Lover_spotdown.org.mp3"
+    archivo: "Lover_spotdown.org.mp3"
 },
 
 // Día 93 (15 de diciembre)
@@ -777,21 +777,21 @@ const songs = [
 {
     title: "Its Beginning to Look a Lot Like Christmas ",
     artist: "Alexander Thoma",
-    archivo: "Canciones/Its Beginning to Look a Lot Like Christmas_spotdown.org.mp3"
+    archivo: "Its Beginning to Look a Lot Like Christmas_spotdown.org.mp3"
 },
 
 // Día 94 (16 de diciembre)
 {
     title: "Santa Tell Me",
     artist: "Ariana Grande",
-    archivo: "Canciones/Santa Tell Me_spotdown.org.mp3"
+    archivo: "Santa Tell Me_spotdown.org.mp3"
 },
 // Día 95 (17 de diciembre)
 
 {
     title: "Let it Snow! Let it Snow! Let it Snow!",
     artist: "Frank Sinatra",
-    archivo: "Canciones/Let It Snow! Let It Snow! Let It Snow! (with The B. Swanson Quartet)_spotdown.org.mp3"
+    archivo: "Let It Snow! Let It Snow! Let It Snow! (with The B. Swanson Quartet)_spotdown.org.mp3"
 },
 
 // Día 96 (18 de diciembre)
@@ -799,7 +799,7 @@ const songs = [
 {
     title: "Carol of the Bells",
     artist: "John Williams",
-    archivo: "Canciones/Carol of the Bells (From _Home Alone_ Soundtrack)_spotdown.org.mp3"
+    archivo: "Carol of the Bells (From _Home Alone_ Soundtrack)_spotdown.org.mp3"
 },
 
 // Día 97 (19 de diciembre)
@@ -807,7 +807,7 @@ const songs = [
 {
     title: "Christmas Dreaming",
     artist: "Frank Sinatra",
-    archivo: "Canciones/Christmas Dreaming_spotdown.org.mp3"
+    archivo: "Christmas Dreaming_spotdown.org.mp3"
 },
 
 // Día 98 (20 de diciembre)
@@ -815,7 +815,7 @@ const songs = [
 {
     title: "Last Christmas",
     artist: "Wham!",
-    archivo: "Canciones/Last Christmas_spotdown.org.mp3"
+    archivo: "Last Christmas_spotdown.org.mp3"
 },
 
 // Día 99 (21 de diciembre)
@@ -823,7 +823,7 @@ const songs = [
 {
     title: "Have Yourself a Merry Little Christmas",
     artist: "Frank Sinatra",
-    archivo: "Canciones/Have Yourself A Merry Little Christmas - Remastered 1999_spotdown.org.mp3"
+    archivo: "Have Yourself A Merry Little Christmas - Remastered 1999_spotdown.org.mp3"
 },
 
 // Día 100 (22 de diciembre) NUEVE MESES Y DÍA 100
@@ -831,7 +831,7 @@ const songs = [
 {
     title: "Snowman",
     artist: "Sia",
-    archivo: "Canciones/Snowman_spotdown.org.mp3"
+    archivo: "Snowman_spotdown.org.mp3"
 },
 
 
@@ -840,7 +840,7 @@ const songs = [
 {
         title: "Aires de Navidad",
         artist: "Willie Colón, Héctor Lavoe",
-        archivo: "Canciones/Aires De Navidad_spotdown.org.mp3"
+        archivo: "Aires De Navidad_spotdown.org.mp3"
     },
 
 // Día 102 (24 de diciembre) NAVIDAD
@@ -848,7 +848,7 @@ const songs = [
 {
     title: "The Christmas Song (Merry Christmas to You)",
     artist: "Nat King Cole",
-    archivo: "Canciones/The Christmas Song (Merry Christmas To You)_spotdown.org.mp3"
+    archivo: "The Christmas Song (Merry Christmas To You)_spotdown.org.mp3"
 },
 
 // Día 103 (25 de diciembre) NAVIDAD
@@ -856,7 +856,7 @@ const songs = [
 {
         title: "Happy Xmas (War Is Over)",
         artist: "John Lennon, Yoko Ono",
-        archivo: "Canciones/Happy Xmas (War Is Over) - Ultimate Mix_spotdown.org.mp3"
+        archivo: "Happy Xmas (War Is Over) - Ultimate Mix_spotdown.org.mp3"
     },
 
 // Día 104 (26 de diciembre)
@@ -864,7 +864,7 @@ const songs = [
 {
         title: "DÁKITI",
         artist: "Bad Bunny",
-        archivo: "Canciones/DÁKITI_spotdown.org.mp3"
+        archivo: "DÁKITI_spotdown.org.mp3"
     },
 
 
@@ -873,7 +873,7 @@ const songs = [
 {
         title: "Happy Together",
         artist: "The Turtles",
-        archivo: "Canciones/Happy Together_spotdown.org.mp3"
+        archivo: "Happy Together_spotdown.org.mp3"
     },
 
 // Día 106 (28 de diciembre)
@@ -881,7 +881,7 @@ const songs = [
 {
         title: "Labios Rotos",
         artist: "Zoé",
-        archivo: "Canciones/Labios Rotos - En Vivo Desde México _ 2010_spotdown.org.mp3"
+        archivo: "Labios Rotos - En Vivo Desde México _ 2010_spotdown.org.mp3"
     },
 
 // Día 107 (29 de diciembre)
@@ -889,7 +889,7 @@ const songs = [
 {
     title: "PIToRRO DE COCO",
     artist: "Bad Bunny",
-    archivo: "Canciones/PIToRRO DE COCO_spotdown.org.mp3"
+    archivo: "PIToRRO DE COCO_spotdown.org.mp3"
 },
 
 // Día 108 (30 de diciembre)
@@ -897,7 +897,7 @@ const songs = [
 {
     title: "Idilio",
     artist: "Willie Colón",
-    archivo: "Canciones/Idilio_spotdown.org.mp3"
+    archivo: "Idilio_spotdown.org.mp3"
 },
 
 // Día 109 (31 de diciembre) AÑO NUEVO
@@ -905,7 +905,7 @@ const songs = [
 {
         title: "El Año Viejo",
         artist: "Tony Camargo",
-        archivo: "Canciones/El Año Viejo_spotdown.org.mp3"
+        archivo: "El Año Viejo_spotdown.org.mp3"
     },
 
 // Día 110 (1 de enero)
@@ -913,7 +913,7 @@ const songs = [
 {
         title: "Miss You",
         artist: "juan karlos",
-        archivo: "Canciones/Miss You_spotdown.org.mp3"
+        archivo: "Miss You_spotdown.org.mp3"
     },
 
 
@@ -922,7 +922,7 @@ const songs = [
 {
         title: "Oh que será",
         artist: "Willie Colón",
-        archivo: "Canciones/Oh Qué Será__spotdown.org.mp3"
+        archivo: "Oh Qué Será__spotdown.org.mp3"
     },
 
 
@@ -931,7 +931,7 @@ const songs = [
 {
     title: "Lejos de Ti",
     artist: "The Marías",
-    archivo: "Canciones/Lejos de Ti_spotdown.org.mp3"
+    archivo: "Lejos de Ti_spotdown.org.mp3"
 },
 
 // Día 113 (4 de enero)
@@ -939,7 +939,7 @@ const songs = [
 {
     title: "From the Dining Table",
     artist: "Harry Styles",
-    archivo: "Canciones/From the Dining Table_spotdown.org.mp3"
+    archivo: "From the Dining Table_spotdown.org.mp3"
 },
 
 // Día 114 (5 de enero)
@@ -947,7 +947,7 @@ const songs = [
 {
     title: "BAILE INoLVIDABLE",
     artist: "Bad Bunny",
-    archivo: "Canciones/BAILE INoLVIDABLE_spotdown.org.mp3"
+    archivo: "BAILE INoLVIDABLE_spotdown.org.mp3"
 },
 
 
@@ -956,7 +956,7 @@ const songs = [
 {
     title: "Buzzcut Season",
     artist: "Lorde",
-    archivo: "Canciones/Buzzcut Season_spotdown.org.mp3"
+    archivo: "Buzzcut Season_spotdown.org.mp3"
 },
 
 // Día 116 (7 de enero)
@@ -964,7 +964,7 @@ const songs = [
 {
     title: "Bachata en Fukuoka",
     artist: "Juan Luis Guerra 4.40",
-    archivo: "Canciones/Bachata En Fukuoka_spotdown.org.mp3"
+    archivo: "Bachata En Fukuoka_spotdown.org.mp3"
 },
 
 
@@ -973,7 +973,7 @@ const songs = [
 {
     title: "fantasmas",
     artist: "HUMBE",
-    archivo: "Canciones/fantasmas_spotdown.org.mp3"
+    archivo: "fantasmas_spotdown.org.mp3"
 },
 
 
@@ -982,7 +982,7 @@ const songs = [
 {
     title: "Me Voy enamorando",
     artist: "Chino y Nacho",
-    archivo: "Canciones/Me Voy Enamorando - Remix_spotdown.org.mp3"
+    archivo: "Me Voy Enamorando - Remix_spotdown.org.mp3"
 },
 
 
@@ -991,7 +991,7 @@ const songs = [
 {
     title: "Alguien Como Tú",
     artist: "Josean Log",
-    archivo: "Canciones/Alguien Como Tú_spotdown.org.mp3"
+    archivo: "Alguien Como Tú_spotdown.org.mp3"
 },
 
 
@@ -1000,7 +1000,7 @@ const songs = [
 {
     title: "Llegaste",
     artist: "Gustavo Cerati",
-    archivo: "Canciones/Llegaste_spotdown.org.mp3"
+    archivo: "Llegaste_spotdown.org.mp3"
 },
 
 
@@ -1009,7 +1009,7 @@ const songs = [
 {
     title: "Amor Completo",
     artist: "Mon Laferte",
-    archivo: "Canciones/Amor Completo_spotdown.org.mp3"
+    archivo: "Amor Completo_spotdown.org.mp3"
 },
 
 
@@ -1018,7 +1018,7 @@ const songs = [
 {
     title: "Bazar",
     artist: "Surfistas del Sistema",
-    archivo: "Canciones/Bazar_spotdown.org.mp3"
+    archivo: "Bazar_spotdown.org.mp3"
 },
 
 
@@ -1027,7 +1027,7 @@ const songs = [
 {
     title: "Please Please Please",
     artist: "Sabrina Carpenter",
-    archivo: "Canciones/Please Please Please_spotdown.org.mp3"
+    archivo: "Please Please Please_spotdown.org.mp3"
 },
 
 // Día 124 (15 de enero)
@@ -1035,7 +1035,7 @@ const songs = [
 {
     title: "Algo Contigo",
     artist: "Rita Payés",
-    archivo: "Canciones/Algo contigo_spotdown.org.mp3"
+    archivo: "Algo contigo_spotdown.org.mp3"
 },
 
 
@@ -1044,7 +1044,7 @@ const songs = [
 {
     title: "Symphony",
     artist: "Clean Bandit, Zara Larson",
-    archivo: "Canciones/Symphony (feat. Zara Larsson)_spotdown.org.mp3"
+    archivo: "Symphony (feat. Zara Larsson)_spotdown.org.mp3"
 },
 
 
@@ -1053,7 +1053,7 @@ const songs = [
 {
     title: "Teenage Dream",
     artist: "Katy Perry",
-    archivo: "Canciones/Teenage Dream_spotdown.org.mp3"
+    archivo: "Teenage Dream_spotdown.org.mp3"
 },
 
 
@@ -1062,7 +1062,7 @@ const songs = [
 {
     title: "En el 2000",
     artist: "Natalia lafourcade",
-    archivo: "Canciones/En el 2000_spotdown.org.mp3"
+    archivo: "En el 2000_spotdown.org.mp3"
 },
 
 // Día 128 (19 de enero)
@@ -1070,7 +1070,7 @@ const songs = [
 {
     title: "Carla's Song",
     artist: "Harry Styles",
-    archivo: "Canciones/Carla's Song_spotdown.org.mp3"
+    archivo: "Carla's Song_spotdown.org.mp3"
 },
 
 
@@ -1079,7 +1079,7 @@ const songs = [
 {
     title: "Drop dead",
     artist: "Olivia Rodrigo",
-    archivo: "Canciones/drop dead_spotdown.org.mp3"
+    archivo: "drop dead_spotdown.org.mp3"
 },
 
 
@@ -1088,7 +1088,7 @@ const songs = [
 {
     title: "Octopu's Garden",
     artist: "The Beatles",
-    archivo: "Canciones/Octopus's Garden - Remastered 2009_spotdown.org.mp3"
+    archivo: "Octopus's Garden - Remastered 2009_spotdown.org.mp3"
 },
 
 
@@ -1097,7 +1097,7 @@ const songs = [
 {
     title: "Amárrame",
     artist: "Mon Laferte",
-    archivo: "Canciones/Amárrame_spotdown.org.mp3"
+    archivo: "Amárrame_spotdown.org.mp3"
 },
 
 // Día 132 (23 de enero)
@@ -1105,7 +1105,7 @@ const songs = [
 {
     title: "Lay All Your Love on Me",
     artist: "ABBA",
-    archivo: "Canciones/Lay All Your Love On Me_spotdown.org.mp3"
+    archivo: "Lay All Your Love On Me_spotdown.org.mp3"
 },
 
 // Día 133 (24 de enero)
@@ -1113,7 +1113,7 @@ const songs = [
 {
     title: "La vie en rose",
     artist: "Louis Armstrong",
-    archivo: "Canciones/La vie en rose_spotdown.org.mp3"
+    archivo: "La vie en rose_spotdown.org.mp3"
 },
 
 // Día 134 (25 de enero)
@@ -1121,7 +1121,7 @@ const songs = [
 {
     title: "Ribs",
     artist: "Lorde",
-    archivo: "Canciones/Ribs_spotdown.org.mp3"
+    archivo: "Ribs_spotdown.org.mp3"
 },
 
 // Día 135 (26 de enero)
@@ -1129,7 +1129,7 @@ const songs = [
 {
     title: "Cold Heart",
     artist: "Elton John, Dua Lipa",
-    archivo: "Canciones/Cold Heart - PNAU Remix_spotdown.org.mp3"
+    archivo: "Cold Heart - PNAU Remix_spotdown.org.mp3"
 },
 
 // Día 136 (27 de enero)
@@ -1137,7 +1137,7 @@ const songs = [
 {
     title: "The Great Gig in the Sky",
     artist: "Pink Floyd",
-    archivo: "Canciones/The Great Gig in the Sky_spotdown.org.mp3"
+    archivo: "The Great Gig in the Sky_spotdown.org.mp3"
 },
 
 // Día 137 (28 de enero)
@@ -1145,7 +1145,7 @@ const songs = [
 {
     title: "Popular",
     artist: "Wicked Cast",
-    archivo: "Canciones/Popular_spotdown.org.mp3"
+    archivo: "Popular_spotdown.org.mp3"
 },
 
 // Día 138 (29 de enero)
@@ -1153,7 +1153,7 @@ const songs = [
 {
     title: "David",
     artist: "Lorde",
-    archivo: "Canciones/David_spotdown.org.mp3"
+    archivo: "David_spotdown.org.mp3"
 },
 
 
@@ -1162,7 +1162,7 @@ const songs = [
 {
     title: "Tú Carcel",
     artist: "Hombres G, Los Enanitos Verdes",
-    archivo: "Canciones/Tu Cárcel (En Vivo)_spotdown.org.mp3"
+    archivo: "Tu Cárcel (En Vivo)_spotdown.org.mp3"
 },
 
 
@@ -1171,7 +1171,7 @@ const songs = [
 {
     title: "A Sky Full of Stars",
     artist: "Coldplay",
-    archivo: "Canciones/A Sky Full of Stars_spotdown.org.mp3"
+    archivo: "A Sky Full of Stars_spotdown.org.mp3"
 },
 
 
@@ -1180,7 +1180,7 @@ const songs = [
 {
     title: "Diez Pasos Hacia Ti",
     artist: "Daniel, me estas matando",
-    archivo: "Canciones/Diez Pasos Hacia Ti_spotdown.org.mp3"
+    archivo: "Diez Pasos Hacia Ti_spotdown.org.mp3"
 },
 
 // Día 142 (2 de febrero)
@@ -1188,7 +1188,7 @@ const songs = [
 {
     title: "Ventanas",
     artist: "Lolabúm",
-    archivo: "Canciones/Ventanas_spotdown.org.mp3"
+    archivo: "Ventanas_spotdown.org.mp3"
 },
 
 // Día 143 (3 de febrero)
@@ -1196,14 +1196,14 @@ const songs = [
 {
  title: "Super Trouper",
     artist: "ABBA",
-    archivo: "Canciones/Super Trouper_spotdown.org.mp3"
+    archivo: "Super Trouper_spotdown.org.mp3"
 },
 // Día 144 (4 de febrero)
 
 {
     title: "Es Verdad",
     artist: "Daniel, me estas matando",
-    archivo: "Canciones/Es Verdad_spotdown.org (1).mp3"
+    archivo: "Es Verdad_spotdown.org (1).mp3"
 },
 
 // Día 145 (5 de febrero)
@@ -1212,7 +1212,7 @@ const songs = [
 {
     title: "There Is a Light That Never Goes Out",
     artist: "The Smiths ",
-    archivo: "Canciones/There Is a Light That Never Goes Out - 2011 Remaster_spotdown.org.mp3"
+    archivo: "There Is a Light That Never Goes Out - 2011 Remaster_spotdown.org.mp3"
 },
 
 // Día 146 (6 de febrero)
@@ -1220,7 +1220,7 @@ const songs = [
 {
     title: "El Poeta",
     artist: "Chino y Nacho",
-    archivo: "Canciones/El Poeta_spotdown.org.mp3"
+    archivo: "El Poeta_spotdown.org.mp3"
 },
 
 // Día 147 (7 de febrero)
@@ -1228,7 +1228,7 @@ const songs = [
 {
     title: "Show me Love",
     artist: "Wiz the MC, bees & honey, ",
-    archivo: "Canciones/Show Me Love (with Tyla)_spotdown.org.mp3"
+    archivo: "Show Me Love (with Tyla)_spotdown.org.mp3"
 },
 
 
@@ -1237,7 +1237,7 @@ const songs = [
 {
     title: "Viento",
     artist: "Caifanes",
-    archivo: "Canciones/Viento_spotdown.org.mp3"
+    archivo: "Viento_spotdown.org.mp3"
 },
 
 // Día 149 (9 de febrero)
@@ -1245,7 +1245,7 @@ const songs = [
 {
     title: "Haydee",
     artist: "Tati Falco",
-    archivo: "Canciones/Haydee_spotdown.org.mp3"
+    archivo: "Haydee_spotdown.org.mp3"
 },
 
 
@@ -1254,7 +1254,7 @@ const songs = [
 {
     title: "City of stars",
     artist: "Ryan Gosling, Emma Stone",
-    archivo: "Canciones/City Of Stars_spotdown.org.mp3"
+    archivo: "City Of Stars_spotdown.org.mp3"
 },
 
 // Día 152 (12 de febrero)
@@ -1262,7 +1262,7 @@ const songs = [
 {
     title: "Love of my life",
     artist: "Harry Styles",
-    archivo: "Canciones/Love Of My Life_spotdown.org.mp3"
+    archivo: "Love Of My Life_spotdown.org.mp3"
 },
 
 // Día 153 (13 de febrero) NOS VEMOS PRONTO!!!
@@ -1270,7 +1270,7 @@ const songs = [
   {
     title: "Mirarte",
     artist: "Daniel me Estas Matando",
-    archivo: "Canciones/Mirarte_spotdown.org.mp3"
+    archivo: "Mirarte_spotdown.org.mp3"
 }, 
 
 // Día 153 (14 de febrero) NOS VEMOS PRONTO!!!
@@ -1278,7 +1278,7 @@ const songs = [
   {
     title: "Te Amo y Más",
     artist: "Diego Luna",
-    archivo: "Canciones/Te Amo y Más - from _The Book of Life_ Soundtrack_spotdown.org.mp3"
+    archivo: "Te Amo y Más - from _The Book of Life_ Soundtrack_spotdown.org.mp3"
 }, 
    
 // Día 153 (15 de febrero) NOS VEMOS PRONTO!!!

@@ -172,7 +172,7 @@ body {
 .floating-turntable {
     position: absolute;
 
-    width: 2100px;
+    width: 65%;
 
     left: 50%;
     top: 50%;

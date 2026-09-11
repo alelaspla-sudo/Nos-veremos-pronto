@@ -3,7 +3,7 @@
 // =========================
 
 const startDate =
-    new Date("2026-09-08T00:00:00Z");
+    new Date("2026-09-14T00:00:00Z");
 
 const endDate =
     new Date("2027-02-15T00:30:00Z");
