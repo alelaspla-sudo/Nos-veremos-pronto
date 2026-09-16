@@ -21,16 +21,16 @@ const songs = [
 {
         title: "Walking in the Wind",
         artist: "One Direction",
-        archivo: " Walking in the Wind_spotdown.org.mp3"
+        archivo: "Walking in the Wind_spotdown.org.mp3"
     
     },
 
 // Día 4 (17 de septiembre)
 
 {
-    title: "Cristina",
-    artist: "Sebastian Yatra",
-    archivo: "Cristina_spotdown.org.mp3"
+    title: "Siesta Freestyle",
+    artist: "Lewis OfMan, Alicia te quiero",
+    archivo: "Siesta Freestyle_spotdown.org.mp3"
 },
 
 // Día 5 (18 de septiembre)

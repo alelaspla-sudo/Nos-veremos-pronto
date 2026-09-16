@@ -239,21 +239,291 @@ perro.addEventListener(
 );
 
 
-// ========================
+
+// =========================
+// EXTRA TRACKS
+// =========================
+const extraTracks = {
+
+    "2026-09-16": {
+        title: "Si te vieras",
+        artist: "José y el Toro & Daniel, Me Estás Matando",
+        archivo: "Si te vieras_spotdown.org.mp3"
+    },
+
+    // EJEMPLO:
+    //
+    // "2026-10-22": {
+    //     title: "Canción secreta",
+    //     artist: "Artista",
+    //     archivo: "Cancion secreta.mp3"
+    // },
+
+};
+
+
+// =========================
+// VARIABLES DEL EXTRA TRACK
+// =========================
+
+const extraTrackMode =
+    document.getElementById("extra-track-mode");
+
+const cassette =
+    document.getElementById("cassette");
+
+const extraTrackTitle =
+    document.getElementById("extra-track-title");
+
+const extraTrackArtist =
+    document.getElementById("extra-track-artist");
+
+let extraTrackAudio =
+    null;
+
+let extraTrackIsPlaying =
+    false;
+
+
+// =========================
 // ROCA
-// ========================
+// =========================
 
 roca.addEventListener(
     "click",
     function () {
 
-        console.log(
-            "¡Roca fue tocado!"
+        const fecha =
+            obtenerFechaActual();
+
+        const extraTrack =
+            extraTracks[fecha];
+
+
+        // =====================================
+        // SI HOY NO HAY EXTRA TRACK
+        // =====================================
+
+        if (!extraTrack) {
+
+            return;
+
+        }
+
+
+        // =====================================
+        // SI YA ESTÁ ABIERTO
+        // =====================================
+
+        if (extraTrackIsPlaying) {
+
+            return;
+
+        }
+
+
+        abrirExtraTrack(
+            extraTrack
         );
 
     }
 );
 
+
+// =========================
+// ABRIR EXTRA TRACK
+// =========================
+
+function abrirExtraTrack(song) {
+
+    extraTrackIsPlaying =
+        true;
+
+
+    // =====================================
+    // LIMPIAR ESTADOS
+    // =====================================
+
+    extraTrackMode.classList.remove(
+        "extra-track-cassette-visible"
+    );
+
+    extraTrackMode.classList.remove(
+        "extra-track-show-song"
+    );
+
+    cassette.classList.remove(
+        "extra-track-playing"
+    );
+
+
+    // =====================================
+    // INFORMACIÓN
+    // =====================================
+
+    extraTrackTitle.textContent =
+        song.title;
+
+    extraTrackArtist.textContent =
+        song.artist;
+
+
+    // =====================================
+    // ABRIR ESCENA
+    // =====================================
+
+    extraTrackMode.classList.add(
+        "active"
+    );
+
+
+    // =====================================
+    // APARECE EL CASETE
+    // =====================================
+
+    setTimeout(
+        function () {
+
+            extraTrackMode.classList.add(
+                "extra-track-cassette-visible"
+            );
+
+            cassette.classList.add(
+                "extra-track-playing"
+            );
+
+
+            // =================================
+            // MOSTRAR INFORMACIÓN
+            // =================================
+
+            extraTrackMode.classList.add(
+                "extra-track-show-song"
+            );
+
+
+            // =================================
+            // REPRODUCIR
+            // =================================
+
+            extraTrackAudio =
+                new Audio(
+                    song.archivo
+                );
+
+            extraTrackAudio.volume =
+                0.7;
+
+            extraTrackAudio.play()
+                .catch(
+                    function (error) {
+
+                        console.log(
+                            "No se pudo reproducir el Extra Track:",
+                            error
+                        );
+
+                    }
+                );
+
+        },
+        1000
+    );
+
+}
+
+
+// =========================
+// CERRAR EXTRA TRACK
+// =========================
+
+function closeExtraTrack() {
+
+    if (!extraTrackIsPlaying) {
+
+        return;
+
+    }
+
+
+    // =====================================
+    // DETENER AUDIO
+    // =====================================
+
+    if (extraTrackAudio) {
+
+        extraTrackAudio.pause();
+
+        extraTrackAudio.currentTime =
+            0;
+
+        extraTrackAudio =
+            null;
+
+    }
+
+
+    // =====================================
+    // DETENER CASETE
+    // =====================================
+
+    cassette.classList.remove(
+        "extra-track-playing"
+    );
+
+
+    // =====================================
+    // OCULTAR INFORMACIÓN
+    // =====================================
+
+    extraTrackMode.classList.remove(
+        "extra-track-show-song"
+    );
+
+
+    // =====================================
+    // OCULTAR CASETE
+    // =====================================
+
+    extraTrackMode.classList.remove(
+        "extra-track-cassette-visible"
+    );
+
+
+    // =====================================
+    // CERRAR ESCENA
+    // =====================================
+
+    extraTrackMode.classList.remove(
+        "active"
+    );
+
+
+    extraTrackIsPlaying =
+        false;
+
+}
+
+
+// =========================
+// ESC PARA EXTRA TRACK
+// =========================
+
+document.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Escape" &&
+            extraTrackMode.classList.contains("active")
+        ) {
+
+            closeExtraTrack();
+
+        }
+
+    }
+);
 
 // ========================
 // CAMARA
