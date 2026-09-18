@@ -252,7 +252,7 @@ const extraTracks = {
     },
 
      "2026-09-18": {
-        title: "Lacy (me proyecte)",
+        title: "Lacy (me proyecte, perdon)",
         artist: "Olivia Rodrigo",
         archivo: "lacy_spotdown.org.mp3"
     },
@@ -298,8 +298,7 @@ let extraTrackIsPlaying =
 
 roca.addEventListener(
     "click",
-    function () {
-
+    function (event) {
         const fecha =
             obtenerFechaActual();
 
