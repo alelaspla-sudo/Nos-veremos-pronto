@@ -251,6 +251,13 @@ const extraTracks = {
         archivo: "Si te vieras_spotdown.org.mp3"
     },
 
+     "2026-09-18": {
+        title: "Lacy (me proyecte)",
+        artist: "Olivia Rodrigo",
+        archivo: "lacy_spotdown.org.mp3"
+    },
+
+
     // EJEMPLO:
     //
     // "2026-10-22": {
