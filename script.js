@@ -237,16 +237,209 @@ perro.addEventListener(
 
     }
 );
+// =========================
+// ROCA
+// =========================
+
+// =========================
+// EXTRA TRACK
+// =========================
+
+const extraTrackMode =
+    document.getElementById("extra-track-mode");
+
+const cassette =
+    document.getElementById("cassette");
+
+const extraTrackTitle =
+    document.getElementById("extra-track-title");
+
+const extraTrackArtist =
+    document.getElementById("extra-track-artist");
+
+let extraTrackAudio =
+    null;
+
+let extraTrackPlaying =
+    false;
 
 
+// =========================
+// CANCIÓN EXTRA
+// =========================
 
+const extraTrack = {
 
+    fecha: "2026-10-08",
+
+    title: "I Will Wait",
+
+    artist: "Diego Luna & otros",
+
+    archivo: "Benjamin Lovett, Winston Marshall, Marcus Mumford - I Will Wait - from The Book of Life Soundtrack (SPOTISAVER).mp3"
+
+};
 
 
 // =========================
 // ROCA
 // =========================
 
+roca.addEventListener(
+    "click",
+    function () {
+
+        if (
+            obtenerFechaActual() === extraTrack.fecha
+        ) {
+
+            openExtraTrack();
+
+        }
+
+    }
+);
+
+
+// =========================
+// ABRIR EXTRA TRACK
+// =========================
+
+function openExtraTrack() {
+
+    if (extraTrackPlaying) {
+
+        return;
+
+    }
+
+    extraTrackPlaying =
+        true;
+
+    extraTrackTitle.textContent =
+        extraTrack.title;
+
+    extraTrackArtist.textContent =
+        extraTrack.artist;
+
+    extraTrackMode.classList.add(
+        "active"
+    );
+
+    setTimeout(
+        function () {
+
+            extraTrackMode.classList.add(
+                "extra-track-cassette-visible"
+            );
+
+        },
+        100
+    );
+
+    setTimeout(
+        function () {
+
+            extraTrackMode.classList.add(
+                "extra-track-show-song"
+            );
+
+        },
+        900
+    );
+
+    extraTrackAudio =
+        new Audio(
+            extraTrack.archivo
+        );
+
+    extraTrackAudio.volume =
+        0.7;
+
+    extraTrackAudio.play()
+        .catch(
+            function (error) {
+
+                console.log(
+                    "No se pudo reproducir el Extra Track:",
+                    error
+                );
+
+            }
+        );
+
+    cassette.classList.add(
+        "extra-track-playing"
+    );
+
+}
+
+
+// =========================
+// CERRAR EXTRA TRACK
+// =========================
+
+function closeExtraTrack() {
+
+    if (!extraTrackPlaying) {
+
+        return;
+
+    }
+
+    if (extraTrackAudio) {
+
+        extraTrackAudio.pause();
+
+        extraTrackAudio.currentTime =
+            0;
+
+        extraTrackAudio =
+            null;
+
+    }
+
+    cassette.classList.remove(
+        "extra-track-playing"
+    );
+
+    extraTrackMode.classList.remove(
+        "extra-track-show-song"
+    );
+
+    extraTrackMode.classList.remove(
+        "extra-track-cassette-visible"
+    );
+
+    extraTrackMode.classList.remove(
+        "active"
+    );
+
+    extraTrackPlaying =
+        false;
+
+}
+
+
+// =========================
+// ESC PARA CERRAR EXTRA TRACK
+// =========================
+
+document.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Escape" &&
+            extraTrackPlaying
+        ) {
+
+            closeExtraTrack();
+
+        }
+
+    }
+);
 
 // ========================
 // CAMARA
@@ -286,7 +479,10 @@ const mensajesEspeciales = {
 
 
         "2026-09-22": "Hoy cumplimos seis meses. Seis meses desde que decidimos empezar esto juntos y, honestamente, todavía me parece un poco increíble pensar en todo lo que ha pasado desde entonces.\n\nMe gusta pensar en \"honeybee\" porque habla de querer algo que sabes que es precioso y, precisamente por eso, tener miedo de perderlo. Y creo que eso se parece un poquito a lo que siento por nosotros. I hope I never see what your face looks like going,  No porque piense que algo vaya a salir mal, sino porque eres alguien que quiero muchísimo y porque me importa todo lo que hemos construido juntos.\n\nEn estos seis meses hemos tenido rompecabezas, comidas, conversaciones que me hacen el día o me ponen a pensar, como cuando discutimos sobre el fin del mundo y la filantrifolia que sentimos algunos. Hemos bailado juntos, reído de malos chistes y tuvimos miles de llamadas. Un montón de momentos que probablemente desde afuera no parecen importantes, pero que para mí significan muchísimo, significan todo.\n\nVoy a extrañar todas esas cosas mientras esté lejos. Voy a extrañar tus abrazos, tus besos, tu forma de reír, y tu forma de mirarme. A veces de la nada extraño y recuerdo con cariño cuando veíamos el mundial, como me besaste porque ganamos contra Alemania; recuerdo cuando fui a tu casa y nos tomamos fotos con el cono, o cuando vamos al cine.\n\nPero también me gusta pensar que todavía nos falta muchísimo por vivir. Todavía quiero conocer más versiones de ti, descubrir nuevas cosas que nos hagan reír, aprender cómo somos juntos en cada etapa y seguir construyendo una vida llena de esas pequeñas cosas que terminan siendo las más importantes. Los seis meses que hemos vivido juntos, los repetiría eternamente sin dudarlo ni cambiar nada.\n\n Ahora estamos lejos y que no es exactamente como me gustaría pasar nuestros seis meses, quisiera estar contigo, abrazarte, comer algo juntos y probablemente gastar plata en alguna comida que no necesitábamos. Pero incluso desde aquí quiero que sepas que sigo eligiéndote. Que la distancia no cambió lo que siento por ti y que sigo teniendo muchísimas ganas de volver a nuestra vida juntos.\n\nGracias por estos seis meses, Pancho. Gracias por ser tú, por quererme, por hacerme reír y por convertir tantos días normales en recuerdos que quiero guardar para siempre.\n\nTe amo muchísimo. Y aunque hoy estemos a kilómetros de distancia, sigo sintiendo que eres mi lugar favorito.\n\nFeliz seis meses, amor.\n\nCon muchísimo amor,\nAle.",
-};
+
+        "2026-10-08": "Cuando me dijiste que Diego Luna era tu actor favorito, supe que quería mostrarte esta peli. El Libro de la Vida es una de mis películas favoritas de toda la vida. En ella, Diego Luna le da vida a Manolo, un mexicano torero que sueña con ser cantante, incluso si eso va en contra de lo que quiere su familia. Él está enamorado de María desde que eran niños y jugaban juntos. Un día, María es enviada a España a un internado para mejorar su comportamiento y, en esa escena, sale esta canción, justo después de que María le regalara a Manolo una guitarra que él conserva durante toda la película. //\n\nEn \"I Will Wait\", Manolo habla de esperar, de cómo tiene que ser fuerte y valiente. //\n\nTe amo, cielo. Gracias por hablar conmigo cuando me siento insegura o triste. Yo también te voy a esperar y voy a ser muy, muy valiente. <3",
+
+    };
 
 
 
