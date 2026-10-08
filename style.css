@@ -905,83 +905,38 @@ body {
 ========================================= */
 
 .extra-track-info {
-
     position: absolute;
-
     left: 50%;
-    bottom: 12%;
+    bottom: 25%;
     z-index: 200;
-
-    transform:
-        translateX(-50%)
-        translateY(20px);
-
-    width: 80%;
-
+    width: 90%;
+    transform: translateX(-50%);
     text-align: center;
-
-    opacity: 0;
-
-    transition:
-        opacity 0.8s ease,
-        transform 0.8s ease;
-
-}
-
-
-/* =========================================
-   MOSTRAR INFORMACIÓN
-========================================= */
-
-.extra-track-mode.extra-track-show-song
-.extra-track-info {
-
     opacity: 1;
-
-    transform:
-        translateX(-50%)
-        translateY(0);
-
 }
-
-
-/* =========================================
-   "EXTRA TRACK."
-========================================= */
 
 .extra-track-label {
-
-    font-size: 14px;
-
-    margin-bottom: 8px;
-
-    letter-spacing: 2px;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
 }
-
-
-/* =========================================
-   TÍTULO
-========================================= */
 
 .extra-track-title {
-
-    font-size: 24px;
-
-    margin-bottom: 4px;
-
+    font-family: Arial, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.1;
+    margin-bottom: 15px;
 }
-
-
-/* =========================================
-   ARTISTA
-========================================= */
 
 .extra-track-artist {
-
-    font-size: 15px;
-
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
     opacity: 0.8;
-
 }
-

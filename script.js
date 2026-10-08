@@ -237,7 +237,7 @@ perro.addEventListener(
 
     }
 );
-// =========================
+// // =========================
 // ROCA
 // =========================
 
@@ -257,28 +257,28 @@ const extraTrackTitle =
 const extraTrackArtist =
     document.getElementById("extra-track-artist");
 
-let extraTrackAudio =
-    null;
+let extraTrackAudio = null;
 
-let extraTrackPlaying =
-    false;
+let extraTrackPlaying = false;
 
 
 // =========================
-// CANCIÓN EXTRA
+// CANCIONES EXTRA
 // =========================
 
-const extraTrack = {
+const extraTracks = [
 
-    fecha: "2026-10-08",
+    {
+        fecha: "2026-10-08",
 
-    title: "I Will Wait",
+        title: "I Will Wait",
 
-    artist: "Diego Luna & otros",
+        artist: "Diego Luna & otros",
 
-    archivo: "Benjamin Lovett, Winston Marshall, Marcus Mumford - I Will Wait - from The Book of Life Soundtrack (SPOTISAVER).mp3"
+        archivo: "Benjamin Lovett, Winston Marshall, Marcus Mumford - I Will Wait - from The Book of Life Soundtrack (SPOTISAVER).mp3"
+    }
 
-};
+];
 
 
 // =========================
@@ -289,13 +289,7 @@ roca.addEventListener(
     "click",
     function () {
 
-        if (
-            obtenerFechaActual() === extraTrack.fecha
-        ) {
-
-            openExtraTrack();
-
-        }
+        openExtraTrack();
 
     }
 );
@@ -308,19 +302,30 @@ roca.addEventListener(
 function openExtraTrack() {
 
     if (extraTrackPlaying) {
-
         return;
-
     }
 
-    extraTrackPlaying =
-        true;
+    const track =
+        extraTracks.find(
+            function (song) {
+
+                return song.fecha ===
+                    obtenerFechaActual();
+
+            }
+        );
+
+    if (!track) {
+        return;
+    }
+
+    extraTrackPlaying = true;
 
     extraTrackTitle.textContent =
-        extraTrack.title;
+        track.title;
 
     extraTrackArtist.textContent =
-        extraTrack.artist;
+        track.artist;
 
     extraTrackMode.classList.add(
         "active"
@@ -350,7 +355,7 @@ function openExtraTrack() {
 
     extraTrackAudio =
         new Audio(
-            extraTrack.archivo
+            track.archivo
         );
 
     extraTrackAudio.volume =
@@ -382,9 +387,7 @@ function openExtraTrack() {
 function closeExtraTrack() {
 
     if (!extraTrackPlaying) {
-
         return;
-
     }
 
     if (extraTrackAudio) {
@@ -394,8 +397,7 @@ function closeExtraTrack() {
         extraTrackAudio.currentTime =
             0;
 
-        extraTrackAudio =
-            null;
+        extraTrackAudio = null;
 
     }
 
@@ -415,8 +417,7 @@ function closeExtraTrack() {
         "active"
     );
 
-    extraTrackPlaying =
-        false;
+    extraTrackPlaying = false;
 
 }
 
