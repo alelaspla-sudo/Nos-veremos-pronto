@@ -917,7 +917,7 @@ body {
 
 .extra-track-label {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     letter-spacing: 3px;
@@ -926,7 +926,7 @@ body {
 
 .extra-track-title {
     font-family: Arial, sans-serif;
-    font-size: 120px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     line-height: 1.1;
@@ -935,7 +935,7 @@ body {
 
 .extra-track-artist {
     font-family: Arial, sans-serif;
-    font-size: 80px;
+    font-size: 10px;
     font-weight: bold;
     color: white;
     opacity: 0.8;
