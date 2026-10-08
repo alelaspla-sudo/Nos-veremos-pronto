@@ -899,44 +899,66 @@ body {
 
 }
 
-
 /* =========================================
-   INFORMACIÓN
+   INFORMACIÓN EXTRA TRACK
 ========================================= */
 
 .extra-track-info {
     position: absolute;
+
     left: 50%;
-    bottom: 25%;
-    z-index: 200;
-    width: 90%;
+    bottom: 16%;
+
     transform: translateX(-50%);
+
+    width: 85%;
+
     text-align: center;
+
+    z-index: 30;
+
     opacity: 1;
 }
 
+
+/* EXTRA TRACK */
+
 .extra-track-label {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.4vw;
+    font-weight: normal;
+
     color: white;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
 }
+
+
+/* TÍTULO */
 
 .extra-track-title {
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 2.75vw;
     font-weight: bold;
+
     color: white;
-    line-height: 1.1;
-    margin-bottom: 15px;
+
+    line-height: 1.05;
+
+    margin-bottom: 6px;
 }
+
+
+/* ARTISTA */
 
 .extra-track-artist {
     font-family: Arial, sans-serif;
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 2vw;
+
     color: white;
-    opacity: 0.8;
+
+    line-height: 1.1;
 }
+
